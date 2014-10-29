@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BindingBasics/Pages/BindingDemoPage.xaml.cs">
+    <Files>
+      <File FileName="BindingBasics/Pages/BindingDemoPage.xaml" Line="27" Column="27" />
+      <File FileName="BindingBasics/Pages/BindingDemoPage.xaml.cs" Line="4" Column="4" />
+      <File FileName="BindingBasics/App.cs" Line="15" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
