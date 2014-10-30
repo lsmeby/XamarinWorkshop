@@ -69,6 +69,6 @@ Global
 		{B5AF97F2-E5EB-4E65-83B8-01EFD43CF354}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = iOS\BindingBasics.iOS.csproj
+		StartupItem = Android\BindingBasics.Android.csproj
 	EndGlobalSection
 EndGlobal
