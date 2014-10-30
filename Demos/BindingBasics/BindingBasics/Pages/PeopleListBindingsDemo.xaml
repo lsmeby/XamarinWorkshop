@@ -13,6 +13,7 @@
 							<StackLayout Orientation="Horizontal" VerticalOptions="Center">
 								<Label Text="{Binding Name}"/>
 								<Label Text="{Binding Age}"/>
+								<Button Text="Age" Command="{Binding AgeCommand}"/>
 							</StackLayout>
 						</ViewCell.View>
 					</ViewCell>
