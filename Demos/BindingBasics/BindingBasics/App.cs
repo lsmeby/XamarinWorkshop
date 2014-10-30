@@ -8,7 +8,9 @@ namespace BindingBasics
 	{
 		public static Page GetMainPage ()
 		{	
-			return new BindingDemoPage ();
+			// Uncomment for list bindings demo
+			//return new NavigationPage (new PeopleListBindingsDemo());
+			return new NavigationPage (new BindingDemoPage ());
 		}
 	}
 }

@@ -221,6 +221,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = iOS\BindingBasics.iOS.csproj
+		StartupItem = Android\BindingBasics.Android.csproj
 	EndGlobalSection
 EndGlobal

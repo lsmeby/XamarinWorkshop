@@ -1,10 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BindingBasics/Pages/BindingDemoPage.xaml.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5.8.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BindingBasics/Pages/PeopleListBindingsDemo.xaml.cs">
     <Files>
-      <File FileName="BindingBasics/Pages/BindingDemoPage.xaml" Line="27" Column="27" />
-      <File FileName="BindingBasics/Pages/BindingDemoPage.xaml.cs" Line="4" Column="4" />
-      <File FileName="BindingBasics/App.cs" Line="15" Column="15" />
+      <File FileName="BindingBasics/Pages/BindingDemoPage.xaml" Line="1" Column="1" />
+      <File FileName="BindingBasics/Pages/BindingDemoPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="BindingBasics/App.cs" Line="1" Column="1" />
+      <File FileName="BindingBasics/ViewModels/BindingsDemoListViewModel.cs" Line="1" Column="1" />
+      <File FileName="BindingBasics/ViewModels/ViewModelBase.cs" Line="60" Column="60" />
+      <File FileName="BindingBasics/ViewModels/PersonViewModel.cs" Line="4" Column="4" />
+      <File FileName="BindingBasics/Pages/PeopleListBindingsDemo.xaml" Line="144" Column="144" />
+      <File FileName="BindingBasics/Pages/PeopleListBindingsDemo.xaml.cs" Line="16" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
