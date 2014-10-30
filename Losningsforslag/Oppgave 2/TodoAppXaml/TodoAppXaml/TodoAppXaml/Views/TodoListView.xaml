@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TodoAppXaml.Converters;assembly=TodoAppXaml"
+					   x:Class="TodoAppXaml.Views.TodoListView">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <local:ConvertBoolToColor x:Key="BoolConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  <StackLayout Padding="20">
+    
+    <Label Text="Todo-items" Font="Large" />
+    
+    <ListView ItemsSource="{Binding .}" ItemTapped="TodoSelected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <TextCell Text="{Binding Name}" Detail="{Binding Note}"
+                    TextColor="{Binding Done, Converter={StaticResource BoolConverter}}"
+                    DetailColor="{Binding Done, Converter={StaticResource BoolConverter}}" />
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+    <Button Text="Add new" VerticalOptions="EndAndExpand" HorizontalOptions="Fill" Clicked="AddNewClicked" />
+    
+  </StackLayout>
+</ContentPage>

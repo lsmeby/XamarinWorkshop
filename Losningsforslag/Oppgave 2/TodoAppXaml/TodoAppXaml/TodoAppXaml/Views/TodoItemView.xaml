@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="TodoAppXaml.Views.TodoItemView">
+  <StackLayout Padding="20">
+    <Entry Text="{Binding Name}" Placeholder="Name" />
+    <Entry Text="{Binding Note}" Placeholder="Note" />
+    <StackLayout Padding="20" Orientation="Horizontal">
+      <Label Text="Done" Font="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+      <Switch IsToggled="{Binding Done}" />
+    </StackLayout>
+  </StackLayout>
+</ContentPage>
