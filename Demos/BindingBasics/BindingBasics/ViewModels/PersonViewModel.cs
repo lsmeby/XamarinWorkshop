@@ -24,6 +24,10 @@ namespace BindingBasics.ViewModels
 			get;set;
 		}
 
+		public ICommand AgeCommand {
+			get;set;
+		}
+
 		public PeopleListViewModel() {
 			AddRandomPerson = new Command (() => {
 				Debug.WriteLine("Adding random person");
@@ -46,6 +50,10 @@ namespace BindingBasics.ViewModels
 
 		private string _name;
 		private int _age;
+
+		public ICommand AgeCommand {
+			get;set;
+		}
 
 		public string Name {
 			get { 
@@ -73,6 +81,10 @@ namespace BindingBasics.ViewModels
 
 		public PersonViewModel ()
 		{
+
+			AgeCommand = new Command (() => {
+				Age = Age + 1;
+			});
 		}
 	}
 }
