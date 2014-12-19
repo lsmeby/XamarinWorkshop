@@ -1,6 +1,6 @@
 XamarinWorkshop
 ===============
-Oppgaver og løsningsforslag til Xamarin-workshopen pÃ¥ fagdagen 31.10.14.
+Oppgaver og løsningsforslag til Xamarin-workshopen på fagdagen 31.10.14.
 
 Nyttig lenker
 -------------
